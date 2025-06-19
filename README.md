@@ -23,3 +23,6 @@ you can download better features
 you can crossfade the song
 you can collaborate playlists
 the songs is in different categories
+![Screenshot 2025-06-19 123011](https://github.com/user-attachments/assets/7213426c-e3ab-4dfa-9f00-82a4260bc57f)
+![Screenshot 2025-06-19 123115](https://github.com/user-attachments/assets/607353a6-4b94-4e23-b963-37e433396959)
+![Screenshot 2025-06-19 123043](https://github.com/user-attachments/assets/67c5cadb-d489-4664-8863-b4462a26e8e0)
