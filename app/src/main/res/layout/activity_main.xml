@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CDDC39"
+    android:background="#8BC34A"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="407dp"
-        android:layout_height="187dp"
+        android:id="@+id/buttonAdd"
+        android:layout_width="295dp"
+        android:layout_height="115dp"
         android:layout_marginStart="669dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="651dp"
@@ -20,28 +20,30 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="368dp"
-        android:layout_height="177dp"
+        android:id="@+id/buttonViewPlaylist"
+        android:layout_width="252dp"
+        android:layout_height="123dp"
         android:layout_marginStart="491dp"
         android:layout_marginTop="2080dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="519dp"
-        android:text="NEXT"
+        android:text="View playlist"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/buttonExit"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.939" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="1091dp"
-        android:layout_height="274dp"
+        android:layout_width="709dp"
+        android:layout_height="250dp"
         android:layout_marginStart="305dp"
         android:layout_marginTop="131dp"
         android:layout_marginEnd="331dp"
@@ -50,22 +52,23 @@
         android:textAlignment="center"
         android:textSize="96sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdd"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="350dp"
-        android:layout_height="178dp"
+        android:id="@+id/buttonExit"
+        android:layout_width="226dp"
+        android:layout_height="96dp"
         android:layout_marginTop="2080dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="518dp"
         android:text="EXIT"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonViewPlaylist"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
