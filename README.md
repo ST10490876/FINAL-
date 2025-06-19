@@ -13,3 +13,13 @@ Users can download songs and play it offline on a playlist
 It helps users to listern to their online music
 It helps users to know when ther favourite artistes drop new songs
 You can search for any song you want to listern to 
+
+# CORE FEATURES:
+you can make your own albums out your favourite songs
+you can play the lyrics of a song
+you can make your favourite song your ringtone
+you can use equalizer and make your song play a certain way
+you can download better features
+you can crossfade the song
+you can collaborate playlists
+the songs is in different categories
